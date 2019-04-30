@@ -1,3 +1,9 @@
+"""
+Future:
+- Use AVL tree for ring representation
+- Use MD5 hashing
+"""
+
 
 class ConsistentHash:
 
