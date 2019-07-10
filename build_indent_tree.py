@@ -1,3 +1,6 @@
+"""
+input
+"""
 test = [
     {
         "id": 1,
@@ -24,6 +27,16 @@ test = [
     }
 ]
 
+"""
+output: 
+-1(First location)
+--2(Second location)
+---3(Third location)
+---5(Fifth location)
+-4(Fourth location)
+"""
+
+##
 roots = []
 node_to_children = {}
 node_to_name = {}
@@ -54,3 +67,4 @@ complexity: O(n)
 """
 for root in roots:
     trace("-", root)
+
