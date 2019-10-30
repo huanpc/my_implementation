@@ -4,9 +4,6 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
 
-/**
- * Created by huan.phancong@tiki.vn on 2019-10-20
- */
 public class LinkedQueue {
 
     public static void main(String[] args) {
