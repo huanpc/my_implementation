@@ -52,6 +52,10 @@ func (q *CircularQueue) IsFull() bool {
 	return q.count == q.capacity
 }
 
+func (q *CircularQueue) Len() int {
+	return q.count
+}
+
 // Enqueue puts a element in the tail of queue
 func (q *CircularQueue) Enqueue(v interface{}) bool {
 	if q.IsFull() {
